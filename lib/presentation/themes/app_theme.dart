@@ -5,7 +5,7 @@ const Color _kPrimaryLightColor = Color(0xFF006B5A);
 const Color _kPrimaryDarkColor = Color(0xFF5BDBBF);
 const Color _kBackgroundDarkColor = Color(0xFF1C1C1E);
 const Color _kBackgroundLightColor = Color(0xFFF2F2F7);
-const double _kIconSize = 28.0;
+const double _kIconSize = 28;
 
 @visibleForTesting
 class AppColor {

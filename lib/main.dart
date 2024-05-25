@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:bitsdojo_window/bitsdojo_window.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_db_client/presentation/presentation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -30,8 +30,8 @@ Future<void> main() async {
 
 class App extends StatelessWidget {
   const App({
-    super.key,
     required this.navigatorKey,
+    super.key,
     this.themeMode,
     this.home,
     this.navigatorObservers,
@@ -59,7 +59,7 @@ class App extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
+  const MyHomePage({required this.title, super.key});
 
   final String title;
 
