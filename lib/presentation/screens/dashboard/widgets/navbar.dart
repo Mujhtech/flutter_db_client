@@ -22,7 +22,7 @@ class Navbar extends StatelessWidget {
                 ),
                 onTap: () {},
               ),
-              const Width10(),
+              const Width20(),
               HyperLink(
                 child: const Icon(
                   Icons.circle_notifications_outlined,
@@ -30,7 +30,7 @@ class Navbar extends StatelessWidget {
                 ),
                 onTap: () {},
               ),
-              const Width10(),
+              const Width20(),
               HyperLink(
                 child: const Icon(
                   Icons.refresh_outlined,
@@ -38,7 +38,7 @@ class Navbar extends StatelessWidget {
                 ),
                 onTap: () {},
               ),
-              const Width20(),
+              const Width30(),
               Expanded(
                 child: HyperLink(
                   onTap: () {},
@@ -60,7 +60,7 @@ class Navbar extends StatelessWidget {
                   ),
                 ),
               ),
-              const Width20(),
+              const Width30(),
               HyperLink(
                 child: const Icon(
                   Icons.circle_notifications_outlined,
@@ -68,7 +68,7 @@ class Navbar extends StatelessWidget {
                 ),
                 onTap: () {},
               ),
-              const Width10(),
+              const Width20(),
               HyperLink(
                 child: const Icon(
                   AntDesign.reload_outline,
@@ -76,7 +76,7 @@ class Navbar extends StatelessWidget {
                 ),
                 onTap: () {},
               ),
-              const Width10(),
+              const Width20(),
               HyperLink(
                 child: const Icon(
                   Icons.refresh_outlined,
@@ -84,7 +84,7 @@ class Navbar extends StatelessWidget {
                 ),
                 onTap: () {},
               ),
-              const Width10(),
+              const Width20(),
               HyperLink(
                 child: const Icon(
                   Icons.refresh_outlined,

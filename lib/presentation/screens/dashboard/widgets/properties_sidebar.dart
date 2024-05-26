@@ -2,8 +2,8 @@ import 'package:bitsdojo_window/bitsdojo_window.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_db_client/presentation/presentation.dart';
 
-class Sidebar extends StatelessWidget {
-  const Sidebar({super.key});
+class PropertiesSidebar extends StatelessWidget {
+  const PropertiesSidebar({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class Sidebar extends StatelessWidget {
                       height: 35,
                       child: TextFormField(
                         decoration: InputDecoration(
-                          hintText: 'Search for items...',
+                          hintText: 'Search for property...',
                           hintStyle: context.textTheme.bodySmall,
                           constraints: const BoxConstraints(
                             maxHeight: 30,
@@ -63,42 +63,14 @@ class Sidebar extends StatelessWidget {
                         ),
                         const Width10(),
                         Text(
-                          'Tables',
+                          'Properties',
                           style: context.textTheme.bodyMedium,
                         ),
                       ],
                     ),
                     const Height10(),
                     Expanded(
-                      child: ListView.separated(
-                        itemBuilder: (BuildContext ctx, int index) => Row(
-                          children: [
-                            Icon(
-                              Icons.arrow_forward_ios_outlined,
-                              size: 10,
-                              color: context.iconColor,
-                            ),
-                            const Width5(),
-                            Row(
-                              children: [
-                                Icon(
-                                  Icons.table_chart_outlined,
-                                  size: 18,
-                                  color: context.iconColor,
-                                ),
-                                const Width5(),
-                                Text(
-                                  'businesses',
-                                  style: context.textTheme.bodySmall,
-                                ),
-                              ],
-                            ),
-                          ],
-                        ),
-                        separatorBuilder: (BuildContext ctx, int index) =>
-                            const Height10(),
-                        itemCount: 10,
-                      ),
+                      child: ListView(),
                     ),
                   ],
                 ),
